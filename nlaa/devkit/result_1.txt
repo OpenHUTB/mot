@@ -1,0 +1,85 @@
+Sequences: 
+    'MOT16-02'
+    'MOT16-04'
+    'MOT16-05'
+    'MOT16-09'
+    'MOT16-10'
+    'MOT16-11'
+    'MOT16-13'
+
+Importing data from /home/d/workspace/MOT/DMAN_MOT/data/MOT16/train/MOT16-02/gt/gt.txt
+Importing data from /home/d/workspace/MOT/DMAN_MOT/data/MOT16/train/MOT16-04/gt/gt.txt
+Importing data from /home/d/workspace/MOT/DMAN_MOT/data/MOT16/train/MOT16-05/gt/gt.txt
+Importing data from /home/d/workspace/MOT/DMAN_MOT/data/MOT16/train/MOT16-09/gt/gt.txt
+Importing data from /home/d/workspace/MOT/DMAN_MOT/data/MOT16/train/MOT16-10/gt/gt.txt
+Importing data from /home/d/workspace/MOT/DMAN_MOT/data/MOT16/train/MOT16-11/gt/gt.txt
+Importing data from /home/d/workspace/MOT/DMAN_MOT/data/MOT16/train/MOT16-13/gt/gt.txt
+Evaluating ... 
+	... MOT16-02
+Preprocessing (cleaning) MOT16-02...
+......
+Removing 573 boxes from solution...
+Importing data from /home/d/workspace/MOT/DMAN_MOT/results/clean/MOT16-02.txt
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 27.0  87.4  1.16| 54   7  18  29|  694 13010   94  187|  22.6  74.5  23.1 
+
+	... MOT16-04
+Preprocessing (cleaning) MOT16-04...
+..........
+Removing 1611 boxes from solution...
+Importing data from /home/d/workspace/MOT/DMAN_MOT/results/clean/MOT16-04.txt
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 47.5  82.3  4.61| 83  10  44  29| 4843 24991  433  651|  36.4  77.6  37.3 
+
+	... MOT16-05
+Preprocessing (cleaning) MOT16-05...
+........
+Removing 1 boxes from solution...
+Importing data from /home/d/workspace/MOT/DMAN_MOT/results/clean/MOT16-05.txt
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 42.3  79.1  0.91|125   4  73  48|  764  3934  213  188|  28.0  73.6  31.1 
+
+	... MOT16-09
+Preprocessing (cleaning) MOT16-09...
+.....
+Removing 317 boxes from solution...
+Importing data from /home/d/workspace/MOT/DMAN_MOT/results/clean/MOT16-09.txt
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 58.5  88.1  0.79| 25   4  18   3|  416  2182   96  132|  48.8  73.3  50.5 
+
+	... MOT16-10
+Preprocessing (cleaning) MOT16-10...
+......
+Removing 39 boxes from solution...
+Importing data from /home/d/workspace/MOT/DMAN_MOT/results/clean/MOT16-10.txt
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 43.1  80.0  2.03| 54   7  21  26| 1330  7008  167  260|  30.9  73.3  32.3 
+
+	... MOT16-11
+Preprocessing (cleaning) MOT16-11...
+.........
+Removing 0 boxes from solution...
+Importing data from /home/d/workspace/MOT/DMAN_MOT/results/clean/MOT16-11.txt
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 54.0  90.0  0.61| 69   9  22  38|  552  4218  113  110|  46.8  77.9  48.0 
+
+	... MOT16-13
+Preprocessing (cleaning) MOT16-13...
+.......
+Removing 0 boxes from solution...
+Importing data from /home/d/workspace/MOT/DMAN_MOT/results/clean/MOT16-13.txt
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 25.1  79.6  0.98|107  11  35  61|  737  8578   68  133|  18.0  71.9  18.6 
+
+
+ ********************* Your Benchmark Results (2D) ***********************
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 42.1  83.3  1.76|517  52 231 234| 9336 63921 1184 1661|  32.6  75.9  33.6 
+save video to /home/d/workspace/MOT/DMAN_MOT/results/videos/MOT16-13.avi

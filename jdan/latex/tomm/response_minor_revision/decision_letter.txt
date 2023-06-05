@@ -1,0 +1,179 @@
+From:
+
+ygj@fudan.edu.cn
+
+To:
+
+zhiyong.li@hnu.edu.cn
+
+CC:
+
+haidong@hnu.edu.cn, 419432961@qq.com, zhiyong.li@hnu.edu.cn, yuanjin@hnu.edu.cn, shutao_li@hnu.edu.cn
+
+Subject:
+
+TOMM manuscript ID TOMM-2021-0302.R1
+
+Body:
+
+29-Jan-2022
+
+Dear Dr Li:
+
+I have received the reviews on your revised submission to TOMM titled "JDAN: Joint Detection and Association Network for Real-Time Online Multi-Object Tracking".  The reviewers are in general agreement that the paper warrants publication in TOMM, but have a variety of comments that you should address first.  Detailed comments from the reviewers are appended to the end of this email.
+
+Please submit the revision until 28-Feb-2022 latest.
+
+Once you submit your revised paper, I will review it and make a (prompt) "go/no go" decision without sending it out for further review.  If an accept decision is made, this will be your last chance to edit/revise the paper (other than reviewing the page proofs) so please read it over carefully one last time.
+
+Please upload through the File Upload Center at https://mc.manuscriptcentral.com/tomm
+by clicking on Revised Manscripts and then on the title of the manuscript that you are uploading the revision for
+the following:
+
+Files for review
+1. the correctly formatted revised Manuscript (pdf or ps). Make sure you give it the File Type Designation of Manuscript. Please ensure that your manuscript stays within the strict limit of 23 pages using the small ACM journal format (http://www.acm.org/pubs/submissions/submission.htm).
+2. Revision Comments (pdf or ps) that detail the changes you made to the paper in response to reviewers comments.  Make sure you give it the File Type "Other".
+
+Best regards,
+
+Dr Yu-Gang Jiang
+Associate Editor, ACM TOMM
+
+Reviewer(s)' Comments to Author:
+Referee: 1
+
+Recommendation: Accept
+
+Comments:
+The responses have well addressed all my concerns. I recommend accepting it for publication.
+
+Additional Questions:
+Review's recommendation for paper type: Full length technical paper
+
+Should this paper be considered for a best paper award?: No
+
+Does this paper present innovative ideas or material?: Yes
+
+In what ways does this paper advance the field?: This paper proposes an end-to-end architecture to jointly process both object detection and association to alleviate the error propagation problem. It also employs pseudo labels to solve the object inconsistent problem.
+
+Is the information in the paper sound, factual, and accurate?: Yes
+
+If not, please explain why.:
+
+What are the major contributions of the paper?: A good idea that jointly processes both object detection and association to alleviate the error propagation problem in an end-to-end fashion.
+
+The use of pseudo labels for solving the object inconsistent problem.
+
+Good performances on benchmarks.
+
+Rate how well the ideas are presented (very difficult to understand=1 very easy to understand =5: 4
+
+Rate the overall quality of the writing (very poor=1, excellent=5: 4
+
+Does this paper cite and use appropriate references?: Yes
+
+If not, what important references are missing?:
+
+Should anything be deleted from or condensed in the paper?: No
+
+If so, please explain.:
+
+Is the treatment of the subject complete?: Yes
+
+If not, What important details / ideas/ analyses are missing?:
+
+Please help ACM create a more efficient time-to-publication process: Using your best judgment, what amount of copy editing do you think this paper needs?: Light
+
+Most ACM journal papers are researcher-oriented. Is this paper of potential interest to developers and engineers?: Yes
+
+
+Referee: 2
+
+Recommendation: Needs Minor Revision
+
+Comments:
+Thanks for the authors¡¯ responses and their massive efforts to revise the paper. The current version is much easier and clearer to follow. My only left concern is about the comparison with FairMOT. As FairMOT also introduces a Re-ID loss which learns to associate targets in the training, should it be classified into the end-to-end MOT as well? If so, is the proposed association submodule comparable to using the Re-ID loss?
+
+Regarding the current inferior performance compared to FairMOT, have the authors tried to add the Re-ID loss in their end-to-end training? For fair comparisons, the authors could consider to apply the post- association processing used in FairMOT to their approach. This may help to narrow the performance gap.
+
+Additional Questions:
+Review's recommendation for paper type:
+
+Should this paper be considered for a best paper award?:
+
+Does this paper present innovative ideas or material?:
+
+In what ways does this paper advance the field?:
+
+Is the information in the paper sound, factual, and accurate?:
+
+If not, please explain why.:
+
+What are the major contributions of the paper?:
+
+Rate how well the ideas are presented (very difficult to understand=1 very easy to understand =5:
+
+Rate the overall quality of the writing (very poor=1, excellent=5:
+
+Does this paper cite and use appropriate references?:
+
+If not, what important references are missing?:
+
+Should anything be deleted from or condensed in the paper?:
+
+If so, please explain.:
+
+Is the treatment of the subject complete?:
+
+If not, What important details / ideas/ analyses are missing?:
+
+Please help ACM create a more efficient time-to-publication process: Using your best judgment, what amount of copy editing do you think this paper needs?: Light
+
+Most ACM journal papers are researcher-oriented. Is this paper of potential interest to developers and engineers?: Yes
+
+
+Referee: 3
+
+Recommendation: Accept
+
+Comments:
+The second version clarifies my previous concerns
+
+Additional Questions:
+Review's recommendation for paper type: Full length technical paper
+
+Should this paper be considered for a best paper award?: No
+
+Does this paper present innovative ideas or material?: Yes
+
+In what ways does this paper advance the field?: The manuscript provides an alternative way between two-stage and one-stage tracking models, namely using one backbone trained with a two-step strategy. Specifically, they first apply detection loss then association loss. Overall, the mechanism worked with experiments results.
+
+Is the information in the paper sound, factual, and accurate?: Yes
+
+If not, please explain why.:
+
+What are the major contributions of the paper?: The major contributions lie in: use a backbone to achieve both object detection and identity association under a two-step training strategy. Towards this target, the modify object detection loss on top of DLA and introduce new identity association losses.
+
+Rate how well the ideas are presented (very difficult to understand=1 very easy to understand =5: 4
+
+Rate the overall quality of the writing (very poor=1, excellent=5: 4
+
+Does this paper cite and use appropriate references?: Yes
+
+If not, what important references are missing?:
+
+Should anything be deleted from or condensed in the paper?: No
+
+If so, please explain.:
+
+Is the treatment of the subject complete?: Yes
+
+If not, What important details / ideas/ analyses are missing?:
+
+Please help ACM create a more efficient time-to-publication process: Using your best judgment, what amount of copy editing do you think this paper needs?: Light
+
+Most ACM journal papers are researcher-oriented. Is this paper of potential interest to developers and engineers?: Maybe
+
+Date Sent:
+
+29-Jan-2022

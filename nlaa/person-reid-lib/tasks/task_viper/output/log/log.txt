@@ -1,0 +1,10 @@
+2019-11-04 15:13:34,870 - logger.py[line:59] - INFO: Time Tag: 2019-11-04_151334
+2019-11-04 15:13:34,928 - __init__.py[line:505] - WARNING: Setting up a new session...
+2019-11-04 15:13:34,931 - torch_visdom.py[line:190] - ERROR: Error connecting to Visdom server
+2019-11-04 15:13:34,931 - torch_visdom.py[line:192] - INFO: Visdom is not installed, but no server connection. The visual data is stored locally.
+2019-11-04 15:13:34,931 - manager.py[line:47] - INFO: Device: server
+2019-11-04 15:13:34,931 - manager.py[line:48] - INFO: -----------------------Set Seed None------------------------
+2019-11-04 15:13:34,932 - util.py[line:113] - INFO: Choose GPU ID: 0
+2019-11-04 15:13:34,932 - manager.py[line:58] - INFO: ---------------------Set Dataset VIPeR----------------------
+2019-11-04 15:13:34,932 - manager.py[line:117] - INFO: Set Split ID  0
+2019-11-04 15:13:34,932 - solverbase.py[line:17] - INFO: Instance num [ 8] Sample num [ 4] Depth [ 8]

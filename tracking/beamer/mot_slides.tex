@@ -1,0 +1,129 @@
+\special{dvipdfmx:config z 0} %取消PDF压缩，加快速度，最终版本生成的时候最好把这句话注释掉
+
+% 调试哪个章节就加入哪个章节，其他的章节自动屏蔽
+%\includeonly{chap1}
+
+\documentclass[UTF8,10pt,aspectratio=43,mathserif,table]{beamer}
+%设置为 Beamer 文档类型，设置字体为 10pt，长宽比为16:9，数学字体为 serif 风格
+\batchmode
+
+\usepackage{graphicx}
+\usepackage{animate}
+\usepackage{hyperref}
+
+%导入一些用到的宏包
+\usepackage{amsmath,bm,amsfonts,amssymb,enumerate,epsfig,bbm,calc,color,ifthen,capt-of,multimedia,hyperref}
+\usepackage{xeCJK} %导入中文包
+\setCJKmainfont{SimHei} %字体采用黑体  Microsoft YaHei
+
+\usetheme{Berlin} % 主题
+\usecolortheme{sustech} % 主题颜色
+
+\usepackage[ruled,linesnumbered]{algorithm2e}
+
+\usepackage{fancybox}
+\usepackage{xcolor}
+\usepackage{times}
+\usepackage{listings}
+
+\usepackage{booktabs}
+\usepackage{colortbl}
+
+% 插入中文日期
+\usepackage{datetime} %日期
+\renewcommand{\today}{\number\year 年 \number\month 月 \number\day 日}
+
+
+\newcommand{\Console}{Console}
+\lstset{ %
+	backgroundcolor=\color{white},   % 选择背景颜色
+	basicstyle=\footnotesize\rmfamily,     % size of fonts used for the code
+	columns=fullflexible,
+	breaklines=true,                 % automatic line breaking only at whitespace
+	captionpos=b,                    % 设置说明文字在底部
+	tabsize=4,
+	commentstyle=\color{mygreen},    % comment style
+	escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+	keywordstyle=\color{blue},       % keyword style
+	stringstyle=\color{mymauve}\ttfamily,     % string literal style
+	numbers=left, 
+	%	frame=single,
+	rulesepcolor=\color{red!20!green!20!blue!20},
+	% identifierstyle=\color{red},
+	language=c
+}
+
+\setsansfont{Microsoft YaHei}
+\setmainfont{Microsoft YaHei}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\definecolor{mygray}{gray}{.9}
+\definecolor{mypink}{rgb}{.99,.91,.95}
+\definecolor{mycyan}{cmyk}{.3,0,0,0}
+
+
+% 参考文献
+\usepackage[backend=bibtex,sorting=none]{biblatex}
+\addbibresource{../reference.bib} %BibTeX数据文件及位置
+% 脚注（https://blog.csdn.net/nima1994/article/details/80744545）：
+% \footfullcite{bib_item} %文献item
+% 将参考文献图标改成标准格式，\begin{document} 之前添加如下
+\setbeamertemplate{bibliography item}[text]
+
+
+%题目，作者，学校，日期
+\title{复杂场景下多目标跟踪方法研究}
+%\title{多目标跟踪场景下的时空注意力方法研究}
+%\title{复杂场景下多目标跟踪时空注意力方法研究}
+%\subtitle{\fontsize{9pt}{14pt}\textbf{Research on Multi-Object Tracking Method in Complex Scene}}
+%\newline
+\author{\newline \newline \newline \newline \newline 答辩人: 王海东  \newline  指导老师: 李智勇教授}
+\institute{\fontsize{8pt}{14pt}湖南大学信息科学与工程学院}
+%\data{2022 年 6 月 25 日}
+\date{\today}
+
+%学校Logo
+%\pgfdeclareimage[height=0.5cm]{sustech-logo}{sustech-logo.pdf}
+%\logo{\pgfuseimage{sustech-logo}\hspace*{0.3cm}}
+
+\AtBeginSection[]
+{
+	\begin{frame}<beamer>
+	\frametitle{\textbf{目录}}
+	\tableofcontents[currentsection]
+\end{frame}
+}
+\beamerdefaultoverlayspecification{<+->}
+
+
+% -----------------------------------------------------------------------------
+\begin{document}
+% -----------------------------------------------------------------------------
+
+\frame{\titlepage}
+
+\section[目录]{}   %目录
+\begin{frame}{目录}
+\tableofcontents
+\end{frame}
+
+% -----------------------------------------------------------------------------
+
+
+\include{chap1}
+
+\include{chap2}
+
+\include{chap3}
+
+\include{chap4}
+
+\include{chap5}
+
+\include{chap6}
+
+
+% -----------------------------------------------------------------------------
+\end{document}
+%文档结束

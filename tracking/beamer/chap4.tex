@@ -1,0 +1,108 @@
+\section{时空互表征学习方法}
+\subsection{基于时空互表征学习的鲁棒目标关联在线多目标跟踪}
+
+
+\begin{frame}
+	\frametitle{方法动机}
+	\begin{columns}[T] % align columns
+		\begin{column}<0->{.50\textwidth}
+			\begin{figure}[thpb]
+				\centering
+				\resizebox{1\linewidth}{!}{
+					\includegraphics{../figures/C4Fig/introduction.pdf}
+				}
+				\caption{时空相互学习和鲁棒的目标关联}
+			\end{figure}
+		\end{column}
+		\hfill%
+		\begin{column}<0->{.65\textwidth}
+			\begin{itemize}
+				\item<1-> 检测结果丢失、忽略或不准确
+				\begin{itemize}
+					\item<1-> 遵循跟踪预测范式，使用最新的高精度单目标跟踪器来缓解。
+					\item<1-> 当跟踪的分数低于阈值时，将使用目标关联方法解决漂移问题
+				\end{itemize}
+				\item<1-> 当前检测结果的时间特征被忽略的问题，即数据关联双方特征的不平衡问题
+				\begin{itemize}
+					\item<1-> 通过所提出的时空相互学习方法，序列学习网络学习的时间信息被转移到检测学习网络
+%					\item<1-> 由于学习到了时间信息，使得当前检测特征对各种复杂环境具有较好的鲁棒性
+				\end{itemize}
+			\end{itemize}
+		\end{column}%
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}{数据关联中时空互学习方法的体系结构}
+	\begin{figure}[!t]
+		\centering
+		\includegraphics[width=4.5in]{../figures/C4Fig/network.pdf}
+		%		\caption{DNN 和带有BTS的神经解剖学对齐之间的协同设计}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{目标关联流程}
+	\begin{columns}[T] % align columns
+		\begin{column}<0->{.50\textwidth}
+			\begin{figure}[thpb]
+				\centering
+				\resizebox{1\linewidth}{!}{
+					\includegraphics{../figures/C4Fig/i2vtesting.pdf}
+				}
+				\caption{当前检测结果和历史轨迹序列的数据关联流程}
+			\end{figure}
+		\end{column}
+		\hfill%
+		\begin{column}<0->{.65\textwidth}
+			\begin{itemize}
+				\item<1-> 相似性关联
+				\begin{itemize}
+					\item<1-> 当单个目标跟踪过程变得不可靠时，将跟踪目标标记为漂移状态，并根据历史目标序列与当前检测结果的相似度得分进行检测到序列的目标关联。
+				\end{itemize}
+				\item<1-> 目标出现和消失
+				\begin{itemize}
+					\item<1-> 当当前检测结果与所有跟踪目标的重叠率低于阈值时，将被视为新的潜在目标。
+					\item<1-> 当单个目标保持漂移状态超过 $\tau_t$ 帧或直接移出视野时，将终止跟踪单目标跟踪过程。
+				\end{itemize}
+			\end{itemize}
+		\end{column}%
+	\end{columns}
+\end{frame}
+
+
+
+\begin{frame}
+	\frametitle{实验}
+	\begin{columns}[T] % align columns
+		\begin{column}<0->{.50\textwidth}
+			\begin{figure}[thpb]
+				\centering
+				\resizebox{1\linewidth}{!}{
+					\includegraphics{../figures/C4Fig/ablation.pdf}
+				}
+				\caption{基础模块的消去实验}
+			\end{figure}
+		\end{column}
+		\hfill%
+		\begin{column}<0->{.65\textwidth}
+			\begin{figure}[thpb]
+				\centering
+				\resizebox{1\linewidth}{!}{
+					\includegraphics{../figures/C4Fig/T.pdf}
+				}
+				\caption{在 MOT16 数据集上使用不同 $T$ 的效果}
+			\end{figure}
+		\end{column}%
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}{测试效果}
+	\begin{figure}[!t]
+		\centering
+		\includegraphics[width=3.7in]{../figures/C4Fig/tracking_result.pdf}
+		\caption{在基准数据集上的跟踪结果示例}
+	\end{figure}
+\end{frame}

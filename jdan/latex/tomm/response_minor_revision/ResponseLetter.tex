@@ -1,0 +1,132 @@
+
+
+\documentclass[12pt,journal,onecolumn]{IEEEtran}
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{graphicx}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[TABBOTCAP]{subfigure}
+\usepackage{bm}
+\usepackage{upgreek} 
+\usepackage{amsmath}
+\usepackage{breqn}
+\usepackage{color}
+\usepackage{cite}
+\usepackage[none]{hyphenat}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{caption2}
+\usepackage{setspace}
+
+\usepackage{tikz}
+\newcommand*{\circled}[1]{\lower.7ex\hbox{\tikz\draw (0pt, 0pt)%
+		circle (.4em) node {\makebox[1em][c]{\small #1}};}}
+
+
+\linespread{1.5}
+
+% 把这两个参数的调整加到tex文件里。hyphenpenalty值越大断字出现的就越少。tolerance越大，换行就会越少，也就是说，LaTex会把本该断开放到下一行的单词，整个儿的留在当前行。
+\hyphenpenalty=5000
+\tolerance=1000
+
+\begin{document}
+
+\begin{center}
+	\textbf{\LARGE Response to Comments} 
+\end{center}
+\vspace{8pt} 
+
+\noindent TOMM-Manuscript: TOMM-2021-0302.R2 \\
+
+\noindent Title: JDAN: Joint Detection and Association Network for Real-Time Online Multi-Object Tracking \\
+
+\noindent \textcolor{blue}{Dear Editor}:
+
+\textcolor{blue}{
+We want to thank you and the review team for the comments on our submission, and for the opportunity to reconsider the paper to Transactions on Multimedia Computing Communications and Applications.  
+Since both referee \#1 and referee \#3 did not make further comments, here the correction of the manuscript is mainly made by taking into account the comments of referee \#2.
+Besides, we have proofread the manuscript carefully and have made correction to meet with your approval. 
+The responds to the reviewer's comments are labeled in blue, 
+and the main corrections in the paper are marked in red to facilitate your reading. 
+}
+
+\vspace{8pt} 
+
+\newpage
+
+
+
+
+
+\textbf{To Referee \#2:}
+
+\textcolor{blue}{Thanks for the comments for our paper, we have revised the manuscript according to your recommendations as follows:}
+
+\textbf{Comment (1).} Thanks for the authors’ responses and their massive efforts to revise the paper. 
+The current version is much easier and clearer to follow.
+My only left concern is about the comparison with FairMOT. 
+As FairMOT also introduces a Re-ID loss which learns to associate targets in the training, should it be classified into the end-to-end MOT as well? 
+If so, is the proposed association submodule comparable to using the Re-ID loss?
+%
+Regarding the current inferior performance compared to FairMOT, have the authors tried to add the Re-ID loss in their end-to-end training? 
+For fair comparisons, the authors could consider to apply the post-association processing used in FairMOT to their approach. 
+This may help to narrow the performance gap.
+
+
+% TODO: 是否可以使用再识别损失
+% 使用了再识别损失，但是没有关联损失；
+% A: 由于我们是端到端的，中间不好增加re-id损失
+% 是否可以增加关联的后处理（或者re-id损失）来提高精度
+% A: 已经包括了再识别过程，FairMOT利用的手动设计的技巧精度才比较高。
+\textbf{Response:} \textcolor{blue}{Thank you for your comment.
+First, FairMOT is not a complete \emph{end-to-end} approach, but an one-stage method for MOT task. 
+Although it attempts to integrate both detection and association into one framework, they do not adopt deep networks to make target association.
+Actually, based on learned Re-ID features, they adopt hand-designed and complex association methods with abundant manual settings to boost the performance.
+Differently, our approach adopts a differential deep network to generate object association without any manual setting for association to adapt to different datasets. 
+Moreover, our approach could implement an \emph{end-to-end} training without explicit Re-ID step, instead using identity classification loss in \emph{detection submodule}. 
+We have considered post-association techniques to improve the performance to some extent, but since our approach is \emph{end-to-end} and potentially includes a Re-ID step, post-processing techniques for Re-ID cannot be considered.
+We hope our work could attract more researches to focus on one-stage MOT method by using \emph{end-to-end} training strategy. 
+We have emphasized it in Section 4.4 as follows:
+}
+
+% 2.1 第2段Recently开头
+\textcolor{red}{``
+%Meanwhile, we compare JDAN with the one-stage approach JDE [56], which is a representive MOT method.
+%TrackRCNN [42] is not listed and compared because it requires additional image segmentation ground truth, which is not supported on the MOT datasets. 
+Besides, FairMOT [55] adopts both visual features and IoU distance with complex and hand-designed tricks in its association stage to improve tracking performance.
+Its engineering implementation requires to manually tune many model parameters to adapt to different datasets.
+While our JDAN is simple and abandons manual parameter settings in association stage by using an \emph{association matrix}."
+} \\
+
+
+%\begin{figure}[H]
+%	\centering 
+%	\includegraphics[width=0.9\textwidth]{imgs/inconsistency.png}
+%\end{figure}
+%
+%\begin{figure}[H]
+%	\centering 
+%	\includegraphics[width=0.9\textwidth]{imgs/framework.png}
+%\end{figure}
+%\vspace{8pt}
+
+
+
+
+
+
+
+
+\vspace{8pt} 
+
+
+\vspace{8pt}
+
+\bibliographystyle{ACM-Reference-Format}
+%\bibliography{test1}
+
+\end{document}
+
+

@@ -1,0 +1,112 @@
+
+% 定义 release 变量就表示发布（编译所有的文件）
+\providecommand{\release}{Release}
+
+% 增加review命令表示盲审的论文（除去个人和导师信息）
+%\providecommand{\review}{Review}
+
+
+% /data2/whd/win10/doc/thesis/模板/latex/hnuthesis_master_v4.0
+% !Mode:: "TeX:UTF-8"
+\def\usewhat{dvipdfmx}                               % 定义编译方式 dvipdfmx 或者 pdflatex ，默认为 dvipdfmx
+% 方式编译，如果需要修改，只需改变花括号中的内容即可。
+%\setlength{\baselineskip}{20pt}
+%\setlength{\headheight}{25pt}
+\documentclass[a4paper,12pt,openany,twoside]{book}
+
+
+% setup/package:存放论文所使用的宏包和全文格式的定义。
+% 如果论文超过60页 可以使用twoside 双面打印
+\input{setup/package}                      % 定义本文所使用宏包(\input仅仅把另一个文件导入到主tex文件中)
+\graphicspath{{figures/}}                  % 定义所有的.eps文件在figures子目录下
+
+
+\begin{document}                           % 开始全文
+%	\begin{CJK*}{UTF8}{song}                   % 开始中文字体使用（Ubuntu中编译有问题）
+		% setup/package: 存放论文所使用全文格式的定义。
+		\input{setup/format}                       % 完成对论文各个部分格式的设置
+		\frontmatter                               % 以下是论文导言部分，包括论文的封面，中英文摘要和中文目录
+		\ifthenelse{\isundefined{\release}}{
+		} {
+			\input{preface/cover}  % 封面
+		}
+		
+		
+		%%%%%%%%%%   目录   %%%%%%%%%%
+		\ifthenelse{\isundefined{\release}}{
+		} {
+			\defaultfont
+			\addcontentsline{toc}{chapter}{目~~~~录}
+			\tableofcontents                        % 中文目录
+			\clearpage
+			\newcommand{\loflabel}{图~}
+			\renewcommand{\numberline}[1]{\song\xiaosi\loflabel~#1\hspace*{\baselineskip}}
+			\addcontentsline{toc}{chapter}{插图索引}
+			\listoffigures
+			\clearpage
+			\newcommand{\lotlabel}{表~}
+			\renewcommand{\numberline}[1]{\song\xiaosi\lotlabel~#1\hspace*{\baselineskip}}
+			\addcontentsline{toc}{chapter}{附表索引}
+			\listoftables
+			\clearpage{\pagestyle{empty}\cleardoublepage}
+		}
+		
+		
+		%%%%%%%%%% 正文部分内容  %%%%%%%%%%
+		\mainmatter\defaultfont\sloppy\raggedbottom
+		
+		\setlength{\intextsep}{2pt}
+		
+		\renewcommand{\ALC@linenosize}{\xiaosi}
+		\renewcommand\arraystretch{1.5}
+		\setlength{\intextsep}{2pt}
+		\setlength{\abovecaptionskip}{2pt}
+		\setlength{\belowcaptionskip}{2pt}
+		
+		\hfuzz=\maxdimen
+		\tolerance=10000
+		\hbadness=10000
+		
+		
+		% 将当前正在写的.tex文件放在这里面，加快编译速度（没有定义release就调试）
+		\ifthenelse{\isundefined{\release}}{
+			\include{body/chap6}
+		}{
+			\include{body/chap1}
+			\include{body/chap2}
+			\include{body/chap3}
+			\include{body/chap4}
+			\include{body/chap5}
+			\include{body/chap6}
+			\include{body/conclusion}
+		}
+        
+        
+		%%%%%%%%%% 正文部分内容  %%%%%%%%%%
+		
+		%%%%%%%%%%  参考文献  %%%%%%%%%%
+		\defaultfont
+		\bibliographystyle{HNUThesis}
+		
+		\phantomsection
+		%\newpage
+		\addcontentsline{toc}{chapter}{参考文献}          % 参考文献加入到中文目录
+		%\nocite{*}                                        % 若将此命令屏蔽掉，则未引用的文献不会出现在文后的参考文献中。
+		%\bibliographystyle{unsrtnat}
+	    \bibliography{reference}
+
+		% 发表论文和参加科研情况说明
+		\include{appendix/publications}
+		\ifthenelse{\isundefined{\review}}{
+			\include{appendix/projects}
+			\include{appendix/acknowledgements}              % 致谢
+		} {
+			
+		}
+    	
+		\clearpage
+%	\end{CJK*}                                        % 结束中文字体使用
+\end{document}                                    % 结束全文
+
+% cover.text 注释掉了 \makecover
+

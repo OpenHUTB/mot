@@ -1,0 +1,304 @@
+
+需要提交：
+1. Cover Letter
+1. Response to Reviews
+Highlights (for review)
+Credit Author Statement
+Declaration of Interest Statement
+Revised manuscript (clean version)
+
+
+Ms. No.: CVIU-21-504
+Title: STURE: Spatial-Temporal Mutual Reinforcement Learning for Robust Data Association in Online Multi-Object Tracking
+Corresponding Author: Professor Zhiyong Li
+Authors: Haidong Wang; Ke Nai; Yaping Li; Ming Wen
+
+女士编号：CVIU-21-504
+标题：STURE：在线多目标跟踪中鲁棒数据关联的时空相互强化学习
+通讯作者: 李志勇教授
+作者：王海东；可耐；李亚平；明文
+
+Dear Professor Li,
+
+Thank you for submitting your manuscript for publication in Computer Vision and Image Understanding. The reviewers found that the article was not acceptable in its present form. However, if you feel that you can suitably address the concerns and issues raised by the reviewers in their comments below, I would welcome receiving a revised manuscript.
+
+I would appreciate it if you could return your revision within 90 days. Please submit your revision online by logging onto the Editorial Manager for Computer Vision and Image Understanding:
+https://www.editorialmanager.com/cviu/
+Your username is: ********
+If you need to retrieve password details, please go to: ********
+
+感谢您提交您的手稿以在计算机视觉和图像理解中发表。审稿人发现该文章目前的形式是不可接受的。然而，如果你觉得你可以适当地解决审稿人在下面的评论中提出的担忧和问题，我欢迎收到修改后的手稿。
+
+如果您能在 90 天内返回您的修订版本，我将不胜感激。请登录计算机视觉和图像理解的编辑经理在线提交您的修订：
+https://www.editorialmanager.com/cviu/
+您的用户名是： ********
+如需找回密码详情，请前往：********
+
+The manuscript record can be found in the "Submissions Needing Revision" menu.
+
+When submitting your revised paper, please include a separate document uploaded as "Response to Reviews" that carefully addresses the issues raised in the below comments, point by point. You should also include a suitable rebuttal to any specific request for change that has not been made.
+
+To facilitate the electronic publication of your manuscript (should it be accepted), we request that your manuscript text, tables and figure legend be submitted in an editable format (Word, WordPerfect, or LaTex only), and all figures uploaded individually as TIF or EPS files.
+
+NOTE: Upon submitting your revised manuscript, please upload the source files for your article. For additional details regarding acceptable file formats, please refer to the Guide for Authors at: http://www.elsevier.com/journals/computer-vision-and-image-understanding/1077-3142/guide-for-authors
+
+稿件记录可在“需要修改的投稿”菜单中找到。
+
+提交修改后的论文时，请附上一份作为“对评论的回应”上传的单独文件，该文件逐点仔细解决以下评论中提出的问题。您还应该对尚未提出的任何特定更改请求进行适当的反驳。
+
+为便于您的手稿以电子方式出版（如果被接受），我们要求您的手稿文本、表格和图例以可编辑格式（仅限 Word、WordPerfect 或 LaTex）提交，并且所有图单独上传为 TIF 或EPS 文件。
+
+注意：提交修改稿后，请上传文章的源文件。有关可接受文件格式的更多详细信息，请参阅作者指南：http://www.elsevier.com/journals/computer-vision-and-image-understanding/1077-3142/guide-for-authors
+
+When submitting your revised paper, we ask that you include the following items:
+
+Manuscript and Figure Source Files (mandatory)
+
+We cannot accommodate PDF manuscript files for production purposes. We also ask that when submitting your revision you follow the journal formatting guidelines. Figures and tables may be embedded within the source file for the submission as long as they are of sufficient resolution for Production. For any figure that cannot be embedded within the source file (such as *.PSD Photoshop files), the original figure needs to be uploaded separately. Refer to the Guide for Authors for additional information.
+http://www.elsevier.com/journals/computer-vision-and-image-understanding/1077-3142/guide-for-authors
+
+提交修改后的论文时，我们要求您包括以下项目：
+
+手稿和图源文件（强制）
+
+我们无法容纳用于生产目的的 PDF 手稿文件。我们还要求您在提交修订时遵循期刊格式指南。图形和表格可以嵌入到提交的源文件中，只要它们对生产具有足够的分辨率。对于任何无法嵌入到源文件中的图形（如*.PSD Photoshop文件），需要单独上传原始图形。有关更多信息，请参阅作者指南。
+http://www.elsevier.com/journals/computer-vision-and-image-understanding/1077-3142/guide-for-authors
+
+
+Highlights (mandatory)
+
+Highlights consist of a short collection of bullet points that convey the core findings of the article and should be submitted in a separate file in the online submission system. Please use 'Highlights' in the file name and include 3 to 5 bullet points (maximum 85 characters, including spaces, per bullet point). See the following website for more information
+http://www.elsevier.com/highlights
+
+亮点（必填）
+
+要点包括一个简短的要点集合，这些要点传达了文章的核心发现，应该在在线提交系统中以单独的文件提交。请在文件名中使用“亮点”并包含 3 到 5 个项目符号点（每个项目符号点最多 85 个字符，包括空格）。有关详细信息，请参阅以下网站
+http://www.elsevier.com/highlights
+
+
+Graphical Abstract (optional)
+
+Graphical Abstracts should summarize the contents of the article in a concise, pictorial form designed to capture the attention of a wide readership online. Refer to the following website for more information: http://www.elsevier.com/graphicalabstracts
+
+图形摘要（可选）
+
+图形摘要应以简洁的图形形式总结文章的内容，旨在吸引广大在线读者的注意力。有关详细信息，请参阅以下网站：http://www.elsevier.com/graphicalabstracts
+
+Please note that this journal offers a new, free service called AudioSlides: brief, webcast-style presentations that are shown next to published articles on ScienceDirect (see also http://www.elsevier.com/audioslides). If your paper is accepted for publication, you will automatically receive an invitation to create an AudioSlides presentation.
+
+请注意，该期刊提供名为 AudioSlides 的新免费服务：在 ScienceDirect 上发表的文章旁边显示简短的网络广播式演示（另请参见 http://www.elsevier.com/audioslides）。如果您的论文被接受发表，您将自动收到创建 AudioSlides 演示文稿的邀请。
+
+Computer Vision and Image Understanding features the Interactive Plot Viewer, see: http://www.elsevier.com/interactiveplots. Interactive Plots provide easy access to the data behind plots. To include one with your article, please prepare a .csv file with your plot data and test it online at http://authortools.elsevier.com/interactiveplots/verification before submission as supplementary material.
+Note: While submitting the revised manuscript, please double check the author names provided in the submission so that authorship related changes are made in the revision stage. If your manuscript is accepted, any authorship change will involve approval from co-authors and respective editor handling the submission and this may cause a significant delay in publishing your manuscript.
+
+计算机视觉和图像理解功能具有交互式绘图查看器，请参阅：http://www.elsevier.com/interactiveplots。交互式绘图提供对绘图背后数据的轻松访问。要在您的文章中包含一个，请准备一个包含绘图数据的 .csv 文件，并在作为补充材料提交之前在 http://authortools.elsevier.com/interactiveplots/verification 在线测试。
+注意：提交修改稿时，请仔细检查提交中提供的作者姓名，以便在修改阶段进行与作者身份相关的更改。如果您的稿件被接受，任何作者身份的更改都将涉及共同作者和处理提交内容的相应编辑的批准，这可能会导致您的稿件出版出现重大延迟。
+
+Include interactive data visualizations in your publication and let your readers interact and engage more closely with your research. Follow the instructions here: https://www.elsevier.com/authors/author-services/data-visualization to find out about available data visualization options and how to include them with your article.
+
+在您的出版物中包含交互式数据可视化，让您的读者与您的研究进行更密切的互动和互动。按照此处的说明操作：https://www.elsevier.com/authors/author-services/data-visualization 了解可用的数据可视化选项以及如何将它们包含在您的文章中。
+
+Thank you, and I look forward to receiving your revised manuscript.
+
+With kind regards,
+
+Nikos Paragios
+Editor-in-Chief
+Data in Brief (optional):
+We invite you to convert your supplementary data (or a part of it) into an additional journal publication in Data in Brief, a multi-disciplinary open access journal. Data in Brief articles are a fantastic way to describe supplementary data and associated metadata, or full raw datasets deposited in an external repository, which are otherwise unnoticed. A Data in Brief article (which will be reviewed, formatted, indexed, and given a DOI) will make your data easier to find, reproduce, and cite.
+
+谢谢你，我期待收到你的修改稿。
+
+亲切的问候，
+
+尼科斯·帕拉吉奥斯
+主编辑
+简要数据（可选）：
+我们邀请您将您的补充数据（或其中的一部分）转换为 Data in Brief（一种多学科开放获取期刊）中的附加期刊出版物。简要数据文章是描述补充数据和相关元数据或存储在外部存储库中的完整原始数据集的绝佳方式，否则这些数据不会被注意到。 Data in Brief 文章（将被审查、格式化、索引并给出 DOI）将使您的数据更易于查找、复制和引用。
+
+You can submit to Data in Brief when you upload your revised manuscript. To do so, complete the template and follow the co-submission instructions found here: www.elsevier.com/dib-template. If your manuscript is accepted, your Data in Brief submission will automatically be transferred to Data in Brief for editorial review and publication.
+
+您可以在上传修改后的手稿时提交给 Data in Brief。为此，请填写模板并按照此处的共同提交说明进行操作：www.elsevier.com/dib-template。如果您的稿件被接受，您提交的 Data in Brief 将自动转移到 Data in Brief 进行编辑审查和出版。
+
+Please note: an open access Article Publication Charge (APC) is payable by the author or research funder to cover the costs associated with publication in Data in Brief and ensure your data article is immediately and permanently free to access by all. For the current APC see: www.elsevier.com/journals/data-in-brief/2352-3409/open-access-journal
+
+请注意：作者或研究资助者应支付开放获取文章出版费 (APC)，以支付与在 Data in Brief 中发表相关的费用，并确保您的数据文章可供所有人立即且永久免费访问。对于当前的 APC，请参见：www.elsevier.com/journals/data-in-brief/2352-3409/open-access-journal
+
+Please contact the Data in Brief editorial office at dib-me@elsevier.com or visit the Data in Brief homepage (www.journals.elsevier.com/data-in-brief/) if you have questions or need further information.
+
+如果您有任何疑问或需要更多信息，请通过 dib-me@elsevier.com 联系 Data in Brief 编辑部或访问 Data in Brief 主页 (www.journals.elsevier.com/data-in-brief/)。
+
+MethodsX (optional)
+
+We invite you to submit a method article alongside your research article. This is an opportunity to get full credit for the time and money spent on developing research methods, and to increase the visibility and impact of your work. If your research article is accepted, we will contact you with instructions on the submission process for your method article to MethodsX. On receipt at MethodsX it will be editorially reviewed and, upon acceptance, published as a separate method article. Your articles will be linked on ScienceDirect.
+
+方法X（可选）
+
+我们邀请您在您的研究文章旁边提交一篇方法文章。这是一个充分利用在开发研究方法上所花费的时间和金钱的机会，并提高您工作的知名度和影响力。如果您的研究文章被接受，我们将与您联系，并就您的方法文章提交给 MethodsX 的过程提供说明。在 MethodsX 收到后，将对它进行编辑审查，并在接受后作为单独的方法文章发表。您的文章将链接到 ScienceDirect。
+
+Please prepare your paper using the MethodsX Guide for Authors: https://www.elsevier.com/journals/methodsx/2215-0161/guide-for-authors (and template available here: https://www.elsevier.com/MethodsX-template) Open access fees apply.
+
+请使用 MethodsX 作者指南准备您的论文：https://www.elsevier.com/journals/methodsx/2215-0161/guide-for-authors（此处提供模板：https://www.elsevier.com/方法X-模板）适用开放访问费用。
+
+
+Please note: an open access Article Publication Charge (APC) is payable by the author or research funder to cover the costs associated with publication in Data in Brief and ensure your data article is immediately and permanently free to access by all. For the current APC see: www.elsevier.com/journals/data-in-brief/2352-3409/open-access-journal
+
+请注意：作者或研究资助者应支付开放获取文章出版费 (APC)，以支付与在 Data in Brief 中发表相关的费用，并确保您的数据文章可供所有人立即且永久免费访问。对于当前的 APC，请参见：www.elsevier.com/journals/data-in-brief/2352-3409/open-access-journal
+
+Please contact the Data in Brief editorial office at dib-me@elsevier.com or visit the Data in Brief homepage (www.journals.elsevier.com/data-in-brief/) if you have questions or need further information.
+
+如果您有任何疑问或需要更多信息，请通过 dib-me@elsevier.com 联系 Data in Brief 编辑部或访问 Data in Brief 主页 (www.journals.elsevier.com/data-in-brief/)。
+
+Computer Vision and Image Understanding
+
+Editorial/Production Office
+Elsevier
+525 B Street, Suite 1800
+San Diego, CA 92101-4495
+USA
+Phone: (619) 699-6484
+Fax: (619) 699-6859
+E-mail: cviu@elsevier.com
+
+计算机视觉和图像理解
+
+编辑/制作办公室
+爱思唯尔
+525 B 街，套房 1800
+加利福尼亚州圣地亚哥 92101-4495
+美国
+电话：(619) 699-6484
+传真：(619) 699-6859
+邮箱：cviu@elsevier.com
+
+Reviewers' comments:
+
+审稿人意见：
+
+
+Area Editor: I concur with the Reviewers in that more work is needed before considering this submission for publication in CVIU journal. In particular, authors are encouraged to (i) significantly enhance the State of the Art, (ii) improve the section with the quantitative benchmark results on MOT16 and MOT17, including recent MOT papers (to start with, refs [1] and [2] mentioned below by Reviewer #1) to discuss in depth the differences in performance, and (iii) including performance results on MOT20.
+
+区域编辑：我同意审稿人的观点，即在考虑将本次提交在 CVIU 期刊上发表之前还需要做更多的工作。 特别是，鼓励作者 (i) 显着提高现有技术水平，(ii) 使用 MOT16 和 MOT17 的定量基准结果改进该部分，包括最近的 MOT 论文（首先，参考文献 [1] 和 [2 ] 下面由审稿人 #1 提到）以深入讨论性能差异，以及 (iii) 包括 MOT20 的性能结果。
+
+
+
+
+Reviewer #1: Summary:
+- This paper proposes a new approach for solving the data association problem encountered in the setting of online frame-by-frame tracking-by-detection MOT.
+- The STURE method is a combination of three training losses for learning a joint neural embedding space for sequence and detection features.
+- Ablation studies demonstrate that adopting this training scheme improves tracking performance.
+
+审稿人 #1：总结：
+- 本文提出了一种解决在线逐帧跟踪检测MOT设置中遇到的数据关联问题的新方法。
+- STURE 方法是三种训练损失的组合，用于学习用于序列和检测特征的联合神经嵌入空间。
+- 消融研究表明，采用这种训练方案可以提高跟踪性能。
+
+Strengths:
+- Using a "cross loss" to learn a mutual representation space for the detection and sequence embedding is a neat idea.
+- The ablation study experiment that removes STURE training is helpful for validating that, at least quantitatively, tracking performance is improved by a non-trivial amount with STURE.
+- The presentation of the manuscript is of high quality; in particular, figures 1-4 are informative and get the main ideas across clearly.
+
+优势：
+- 使用“交叉损失”来学习用于检测和序列嵌入的相互表示空间是一个好主意。
+- 去除 STURE 训练的消融研究实验有助于验证，至少在数量上，使用 STURE 可以显着提高跟踪性能。
+- 手稿的呈现质量很高； 特别是，图 1-4 提供了丰富的信息，并清楚地传达了主要思想。
+
+Weaknesses:
+- Related work:
+- A detailed discussion of SOT approaches to MOT such as Feng et al. [1] would be helpful to better situate this work in the context of relevant literature. Currently, I see only one vague sentence in the related work dedicated to SOT approaches with two citations.
+
+缺点：
+- 相关工作：
+- 详细讨论 SOT 的 MOT 方法，例如 Feng 等人。 [1] 将有助于在相关文献的背景下更好地定位这项工作。 目前，我在专门针对 SOT 方法的相关工作中只看到一个含糊的句子，有两次引用。
+
+
+-Experiments:
+- FPS or Hz metric should be added to the quantitative performance tables for all trackers since this paper is comparing online MOT algorithms.
+- The reported quantitative results for MOT16 and MOT17 compare against mainly outdated baselines, which makes it difficult to extract any meaningful takeaways. However, I understand it is difficult to make fair comparisons with the latest trackers which may use many fancy tricks and training strategies. Still, it is concerning since the state-of-the-art trackers on MOT16 and MOT17 (as per the latest rankings on their webpage) are achieving much higher MOTA scores than what is reported in this work.
+- Better motivation for the chosen baselines should be provided and calling them "state-of-the-art" is not appropriate.
+- It is unclear why relevant recent SOT trackers such as [1] are not compared against in the quantitative results. It seems like these comparisons are important, since the main impact of this work appears to be improving the data association step of prior SOT approaches.
+- In the experiments, Kim et al.'s recent method [2] outperforms STURE in IDF1 and IDR, which suggests they have the stronger data association algorithm in any case and which contradicts the drawn conclusions.
+- Use of bolding in tables is inconsistent with the best performing results, which makes the tables difficult to read.
+- In summary, the quantitative benchmark results on MOT16 and MOT17 do not provide any insight on what the actual value of the STURE method is to the tracking community.
+- This also raises the question of whether STURE is *actually* learning a better joint representation space for detections and sequences of detections.
+- Adding qualitative visualizations of the learned mutual representation space could be more convincing. Consider whether an embedding visualization framework such as t-SNE or UMAP could be useful here, and/or visualizing a "with STURE" tracking result and a "without STURE" tracking result?
+
+- 实验：
+- FPS 或 Hz 指标应添加到所有跟踪器的定量性能表中，因为本文正在比较在线 MOT 算法。
+- MOT16 和 MOT17 报告的定量结果与主要过时的基线进行比较，这使得难以提取任何有意义的外卖。但是，我知道很难与可能使用许多花哨技巧和训练策略的最新跟踪器进行公平比较。尽管如此，令人担忧的是，MOT16 和 MOT17 上最先进的跟踪器（根据其网页上的最新排名）获得的 MOTA 分数远高于这项工作中报告的分数。
+- 应该为选择的基线提供更好的动机，称它们为“最先进的”是不恰当的。
+- 目前尚不清楚为什么在定量结果中没有将相关的最近 SOT 跟踪器（如 [1]）与它们进行比较。这些比较似乎很重要，因为这项工作的主要影响似乎是改进了先前 SOT 方法的数据关联步骤。
+- 在实验中，Kim 等人最近的方法 [2] 在 IDF1 和 IDR 中优于 STURE，这表明它们在任何情况下都具有更强的数据关联算法，这与得出的结论相矛盾。
+- 在表格中使用粗体与最佳执行结果不一致，这使得表格难以阅读。
+- 总而言之，MOT16 和 MOT17 的定量基准结果并未提供任何关于 STURE 方法对跟踪社区的实际价值的见解。
+- 这也提出了一个问题，即 STURE 是否*实际上*为检测和检测序列学习更好的联合表示空间。
+- 添加学习的相互表示空间的定性可视化可能更具说服力。考虑嵌入可视化框架（如 t-SNE 或 UMAP）是否在这里有用，和/或可视化“使用 STURE”跟踪结果和“不使用 STURE”跟踪结果？
+
+-Writing:
+- Title: I believe the word "reinforcement" should be replaced with "representation".
+-Grammar needs serious editing. Please have someone carefully go through line-by-line and fix the subject-verb agreement, proper use of articles (the vs. a), gerunds (-ing), etc.
+-There are many incoherent sentences. For example, "We design loss functions refer to (Gu et al., 2019) for the new model architecture."
+-Also, many sentences begin with "Meanwhile", "Besides", "Moreover", etc. unnecessarily, which distracts from the key messages. These should be removed.
+
+-写作：
+- 标题：我认为“强化”一词应该替换为“代表”。
+- 语法需要认真编辑。 请有人仔细逐行检查并修正主谓一致，正确使用冠词（the vs. a），动名词（-ing）等。
+- 有很多不连贯的句子。 例如，“我们为新模型架构设计的损失函数参考 (Gu et al., 2019)。”
+-此外，许多句子不必要地以“同时”、“除了”、“此外”等开头，这会分散关键信息的注意力。 这些应该被删除。
+
+References:
+??Feng, Weitao, et al. "Multi-object tracking with multiple cues and switcher-aware classification." arXiv preprint arXiv:1901.06129 (2019).
+Kim, Chanho, et al. "Discriminative Appearance Modeling with Multi-track Pooling for Real-time Multi-object Tracking." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021.
+
+参考：
+[1] ??冯，伟涛，等。 “具有多个线索和切换器感知分类的多对象跟踪。” arXiv 预印本 arXiv:1901.06129 (2019)。
+短时：sot
+长时：ReID
+切换
+[2] 金、昌浩等人。 “用于实时多对象跟踪的多轨池判别外观建模。” IEEE/CVF 计算机视觉和模式识别会议论文集。 2021 年。
+当匹配当前检测和目标轨迹时，大多数当前的方法一次只查看一个轨迹，而不考虑它们的联合。这种方法没有足够的辨别能力来处理视频中几个相似目标相邻移动时产生的歧义
+
+
+
+Reviewer #2: This paper provides a new STURE method for data association in online multi-object tracking. Specifically, it learns spatial-temporal representations between current candidate detection and historical sequence in a mutual representation space. Then, more distinguishing detection and sequence representations can be extracted by using various designed losses in object association. The method is evaluated on both MOT16 and MOT17 datasets to verify its effectiveness. I have the following concerns.
+
+审稿人#2：本文为在线多目标跟踪中的数据关联提供了一种新的 STURE 方法。 具体来说，它在相互表示空间中学习当前候选检测和历史序列之间的时空表示。 然后，可以通过使用对象关联中的各种设计损失来提取更多有区别的检测和序列表示。 该方法在 MOT16 和 MOT17 数据集上进行了评估，以验证其有效性。 我有以下顾虑。
+
+1. The authors claim mutual reinforcement learning in the methodology, which is confusing. The proposed method doesn't use an agent to learn in an interactive environment by trial and error using feedback from its own actions and experiences. I recommend that the authors can rephrase this term.
+
+1. 作者在方法论中声称相互强化学习，这是令人困惑的。 所提出的方法不使用代理在交互式环境中通过使用来自其自身行为和经验的反馈进行反复试验来学习。 我建议作者可以改写这个术语。
+
+2. The related work should be enhanced because some methods are out-of-date. Please review more recent MOT methods and highlight the difference between the proposed method and existing methods.
+
+2. 一些方法已经过时，相关工作要加强。 请查看最近的 MOT 方法，并强调提出的方法与现有方法之间的区别。
+
+3. According to the MOTChallenge leaderboard, the performance of the proposed method is not state-of-the-art compared with recent MOT methods in two years.
+
+3. 根据 MOTChallenge 排行榜，与两年内最近的 MOT 方法相比，所提出方法的性能并不是最先进的。
+
+4. The experiment section should be enhanced by adding more results on MOT20.
+
+4. 应通过在 MOT20 上添加更多结果来增强实验部分。
+
+5. How about the running speed comparison in Table 1 and Table 2?
+
+5、表1和表2的运行速度对比如何？
+
+6. In Table 2, MTP achieves the best IDF1 score and can be highlighted in bold font.
+
+6. 在表 2 中，MTP 获得了最好的 IDF1 分数，并且可以用粗体突出显示。
+
+
+#AU_CVIU#
+
+To ensure this email reaches the intended recipient, please do not delete the above code
+
+__________________________________________________
+In compliance with data protection regulations, you may request that we remove your personal registration details at any time. (Use the following URL: https://www.editorialmanager.com/cviu/login.asp?a=r). Please contact the publication office if you have any questions.
+
+#AU_CVIU#
+
+为确保此电子邮件到达预期收件人，请不要删除上述代码
+
+__________________________________________________
+根据数据保护法规，您可以随时要求我们删除您的个人注册信息。 （使用以下 URL：https://www.editorialmanager.com/cviu/login.asp?a=r）。 如有任何问题，请联系出版办公室。

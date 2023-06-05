@@ -1,0 +1,230 @@
+\section{全局注意力机制}
+\subsection{基于全局注意力的在线多目标跟踪数据关联策略}
+
+\begin{frame}
+	\frametitle{主要问题和挑战}
+	\begin{columns}[T] % align columns
+		\begin{column}<0->{.46\textwidth}
+			\begin{figure}[thpb]
+				\centering
+				\resizebox{1\linewidth}{!}{
+					\includegraphics{../figures/C3Fig/tracking_problem.pdf}
+				}
+				%\includegraphics[scale=1.0]{figurefile}
+				\caption{数据关联的动机}
+			\end{figure}
+		\end{column}
+		\hfill%
+		\begin{column}<0->{.65\textwidth}
+			\begin{itemize}
+				\item<1-> 不完美的检测器
+				\begin{itemize}
+					\item<1-> 如果检测结果不准确、遗漏或错误，则跟踪对象容易丢失
+					\item<1-> 可以将单目标跟踪器和数据关联的优点结合在一个统一的框架中来解决这个问题
+				\end{itemize}
+				\item<1-> 传统的卷积操作只关注局部特征和检测区域
+				\begin{itemize}
+					\item<1-> 历史轨迹中的不准确和被遮挡的结果很可能会导致单目标跟踪模型的错误更新
+					\item<1-> 专注于跨时空范围的全局特征，而不是局部区域的特征。
+				\end{itemize}
+			\end{itemize}
+		\end{column}%
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{方法框架}
+	\begin{columns}[T] % align columns
+		\begin{column}<0->{.46\textwidth}
+			\begin{figure}[thpb]
+				\centering
+				\resizebox{1\linewidth}{!}{
+					\includegraphics{../figures/C3Fig/MOT_pipline.pdf}
+				}
+				\caption{在线多目标跟踪流程}
+			\end{figure}
+		\end{column}
+		\hfill%
+		\begin{column}<0->{.65\textwidth}
+			\begin{itemize}
+				\item<1-> 三个子任务
+				\begin{itemize}
+					\item<1-> 单目标跟踪
+					\item<1-> 目标检测
+					\item<1-> 注意力关联
+				\end{itemize}
+
+				\item <1-> 漂移时需要基于轨迹的重新识别
+				\begin{itemize}
+					\item<1-> 关键因素是将轨迹的时空特征合并到特征中
+					\item<1-> 非局部注意力层引入传统卷积神经网络以学习图像序列的时空依赖性
+				\end{itemize}
+			\end{itemize}
+		\end{column}%
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{方法框架}
+	\begin{columns}[T] % align columns
+		\begin{column}<0->{.33\textwidth}
+			\begin{figure}[thpb]
+				\centering
+				\resizebox{1\linewidth}{!}{
+					\includegraphics{../figures/C3Fig/attention_network.pdf}
+				}
+				\caption{全局注意力网络}
+			\end{figure}
+		\end{column}
+		\hfill%
+		\begin{column}<0->{.65\textwidth}
+			\begin{itemize}
+				\item<1-> 全局注意力网络架构
+				\begin{itemize}
+					\item<1-> 五个非局部注意力层
+					\item<1-> 一系列 ResNet-50网络
+					\item<1-> 三维平均池化
+				\end{itemize}
+
+			\end{itemize}
+		\end{column}%
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{非局部注意力层的细节}
+	\begin{columns}[T] % align columns
+		\begin{column}<0->{.33\textwidth}
+			\begin{figure}[thpb]
+				\centering
+				\resizebox{1\linewidth}{!}{
+					\includegraphics{../figures/C3Fig/attention_layer.pdf}
+				}
+%				\caption{全局注意力网络}
+			\end{figure}
+		\end{column}
+		\hfill%
+		\begin{column}<0->{.65\textwidth}
+			\begin{itemize}
+				\item<1-> 非局部注意力机制
+				\begin{itemize}
+					\item<1-> $ C\left(x\right)=\sum_{\forall j}f\left(x_i,x_j\right) $
+					\item<1-> $ f\left(x_i,x_j\right)=e^{ \theta \left(x_i\right)^T \phi \left(x_j\right) } $
+					\item <1-> $ y^i=\frac{1}{\sum_{\forall j} e^{\theta\left(x_i\right)^T \phi \left(x_j\right)}} \sum_{\forall j} e^{\theta\left(x_i\right)^T \phi \left(x_j\right)} g\left(x_j\right) $
+					\item <1-> 最终整个非局部层最终被形式化为 $ Z=W_{Z}Y+X $
+				\end{itemize}
+				
+			\end{itemize}
+		\end{column}%
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{注意力关联}
+	\begin{columns}[T] % align columns
+		\begin{column}<0->{.46\textwidth}
+			\begin{figure}[thpb]
+				\centering
+				\resizebox{1\linewidth}{!}{
+					\includegraphics{../figures/C3Fig/tracking_problem.pdf}
+				}
+				%\includegraphics[scale=1.0]{figurefile}
+				\caption{数据关联的动机}
+			\end{figure}
+		\end{column}
+		\hfill%
+		\begin{column}<0->{.65\textwidth}
+			\begin{itemize}
+				\item<1-> 将跟踪目标的状态定义为：
+				\begin{itemize}
+					\item<1-> 如果 $ s > \tau_s $ 且 $ o_{m} > \tau_o $，为跟踪状态，否则为漂移。
+				\end{itemize}
+			
+				\item<1-> 历史轨迹 $o_{m}$ 的平均重叠定义为：
+				\begin{itemize}
+					\item<1-> $ o_{m}=\frac{\sum_{1}^{L} o\left(t_l,D_L\right)}{L} $
+				\end{itemize}
+				
+				\item <1-> 跟踪目标和检测之间的重叠率定义为：
+				\begin{itemize}
+					\item<1-> 如果 $ \ max \left(IOU \left(t_l,D_l\right) \right) > \tau_o $，$ o \left(t_l,D_L\right) $ 为 1， 否则为 0。
+				\end{itemize}
+				
+				\item <1-> 当前帧 $k$ 中跟踪目标的坐标预测为：
+				\begin{itemize}
+					\item <1-> $ c_k=c_{k-1}+v_{k-1} $
+					\item <1-> 其中速度 $ v_{k-1}=\frac{c_{k-1}-c_{k-K}}{K} $
+				\end{itemize}
+			\end{itemize}
+		\end{column}%
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{消去实验结果}
+	\begin{columns}[T] % align columns
+		\begin{column}<0->{.50\textwidth}
+			\begin{figure}[thpb]
+				\centering
+				\resizebox{1\linewidth}{!}{
+					\includegraphics{../figures/C3Fig/ablation.pdf}
+				}
+				\caption{消去实验结果}
+			\end{figure}
+		\end{column}
+		\hfill%
+		\begin{column}<0->{.65\textwidth}
+			\begin{itemize}
+				\item<1-> 消去的模块
+				\begin{itemize}
+					\item<1-> B1 表示禁用所提出的 NAAN 并使用跟踪分数来关联历史轨迹和当前检测结果。 
+					具体来说，将跟踪器的卷积滤波器应用于候选检测，并直接使用置信图中的最大跟踪分数作为注意力关联的外观相似度
+					\item<1->B2 表示禁用非局部注意力层，并使用标准的卷积神经网络架构提取历史轨迹段的特征，将其用于轨迹的身份验证
+				\end{itemize}
+				
+			\end{itemize}
+		\end{column}%
+	\end{columns}
+\end{frame}
+
+
+
+\begin{frame}
+	\frametitle{网格搜索超参数}
+	\begin{columns}[T] % align columns
+		\begin{column}<0->{.50\textwidth}
+			\begin{figure}[thpb]
+				\centering
+				\resizebox{1\linewidth}{!}{
+					\includegraphics{../figures/C3Fig/grid_search.pdf}
+				}
+				\caption{网格搜索超参数}
+			\end{figure}
+		\end{column}
+		\hfill%
+		\begin{column}<0->{.65\textwidth}
+			\begin{figure}[thpb]
+				\centering
+				\resizebox{1\linewidth}{!}{
+					\includegraphics{../figures/C3Fig/parameter.pdf}
+				}
+				\caption{每个超参数对实验性能的影响}
+			\end{figure}
+		\end{column}%
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}{测试效果}
+	\begin{figure}[!t]
+		\centering
+		\includegraphics[width=3.7in]{../figures/C3Fig/tracking_result.pdf}
+		\caption{不同环境下的跟踪结果示例}
+	\end{figure}
+\end{frame}
+

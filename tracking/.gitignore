@@ -1,0 +1,5 @@
+figures/C6Fig/dongfanghong.png
+figures/C6Fig/experiment.png
+figures/C6Fig/*.png
+figures/C6Fig/*.pdf
+beamer/mot_slides.pdf

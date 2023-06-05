@@ -1,0 +1,233 @@
+Ms. No.: CVIU-21-504R1
+Title: STURE: Spatial-Temporal Mutual Representation Learning for Robust Data Association in Online Multi-Object Tracking
+Corresponding Author: Professor Zhiyong Li
+Authors: Haidong Wang; Ke Nai; Yaping Li; Ming Wen
+
+Dear Professor Li,
+
+Thank you for submitting your manuscript for publication in Computer Vision and Image Understanding. As you will see, the reviewers' comments were generally positive, although some minor changes and improvements were suggested, and I would like to see a revised manuscript that incorporates their feedback.
+
+Please take into account that Electronic Annexes can be appended to your document, and archived on the web site of the journal. They can include animations, video or audio clips, demos, additional data, etc. These electronic annexes are free of charge. You can find a guide for multimedia files at http://www.elsevier.com/wps/find/authorsview.authors/movies_animations.
+
+For technical questions regarding text, figures or video file formats, you may also contact the Journal Manager of CVIU, Linda Shapiro, CVIU@elsevier.com
+
+女士编号：CVIU-21-504R1
+标题：STURE：在线多目标跟踪中鲁棒数据关联的时空互表示学习
+通讯作者: 李志勇教授
+作者：王海东；可耐；李亚平；明文
+
+尊敬的李教授，
+
+感谢您提交您的手稿以在计算机视觉和图像理解中发表。正如您将看到的，审稿人的评论总体上是积极的，尽管提出了一些小的更改和改进，我希望看到一份包含他们反馈的修订稿。
+
+请注意，电子附件可以附加到您的文档中，并存档在期刊的网站上。它们可以包括动画、视频或音频剪辑、演示、附加数据等。这些电子附件是免费的。您可以在 http://www.elsevier.com/wps/find/authorsview.authors/movies_animations 找到多媒体文件指南。
+
+有关文本、图形或视频文件格式的技术问题，您也可以联系 CVIU 期刊经理 Linda Shapiro，CVIU@elsevier.com
+
+
+I would appreciate it if you could return your revision within 30 days. Please submit your revision online by logging onto the Editorial Manager for Computer Vision and Image Understanding:
+https://www.editorialmanager.com/cviu/
+Your username is: ********
+If you need to retrieve password details, please go to: ********
+
+The manuscript record can be found in the "Submissions Needing Revision" menu.
+
+When submitting your revised paper, please include a separate document uploaded as "Response to Reviews" that carefully addresses the issues raised in the below comments, point by point. You should also include a suitable rebuttal to any specific request for change that has not been made.
+
+To facilitate the electronic publication of your manuscript (should it be accepted), we request that your manuscript text, tables and figure legend be submitted in an editable format (Word, WordPerfect, or LaTex only), and all figures uploaded individually as TIF or EPS files.
+
+NOTE: Upon submitting your revised manuscript, please upload the source files for your article. For additional details regarding acceptable file formats, please refer to the Guide for Authors at: http://www.elsevier.com/journals/computer-vision-and-image-understanding/1077-3142/guide-for-authors
+
+
+如果您能在 30 天内返回您的修订版，我将不胜感激。请登录计算机视觉和图像理解的编辑经理在线提交您的修订：
+https://www.editorialmanager.com/cviu/
+您的用户名是： ********
+如需找回密码详情，请前往：********
+
+稿件记录可在“需要修改的投稿”菜单中找到。
+
+提交修改后的论文时，请附上一份作为“对评论的回应”上传的单独文件，该文件逐点仔细解决以下评论中提出的问题。您还应该对尚未提出的任何特定更改请求进行适当的反驳。
+
+为便于您的手稿以电子方式出版（如果被接受），我们要求您的手稿文本、表格和图例以可编辑格式（仅限 Word、WordPerfect 或 LaTex）提交，并且所有图单独上传为 TIF 或EPS 文件。
+
+注意：提交修改稿后，请上传文章的源文件。有关可接受文件格式的更多详细信息，请参阅作者指南：http://www.elsevier.com/journals/computer-vision-and-image-understanding/1077-3142/guide-for-authors
+
+
+When submitting your revised paper, we ask that you include the following items:
+
+Manuscript and Figure Source Files (mandatory)
+
+We cannot accommodate PDF manuscript files for production purposes. We also ask that when submitting your revision you follow the journal formatting guidelines. Figures and tables may be embedded within the source file for the submission as long as they are of sufficient resolution for Production. For any figure that cannot be embedded within the source file (such as *.PSD Photoshop files), the original figure needs to be uploaded separately. Refer to the Guide for Authors for additional information.
+http://www.elsevier.com/journals/computer-vision-and-image-understanding/1077-3142/guide-for-authors
+
+
+提交修改后的论文时，我们要求您包括以下项目：
+
+手稿和图源文件（强制）
+
+我们无法容纳用于生产目的的 PDF 手稿文件。 我们还要求您在提交修订时遵循期刊格式指南。 图形和表格可以嵌入到提交的源文件中，只要它们对生产具有足够的分辨率。 对于任何无法嵌入到源文件中的图形（如*.PSD Photoshop文件），需要单独上传原始图形。 有关更多信息，请参阅作者指南。
+http://www.elsevier.com/journals/computer-vision-and-image-understanding/1077-3142/guide-for-authors
+
+
+
+Highlights (mandatory)
+
+Highlights consist of a short collection of bullet points that convey the core findings of the article and should be submitted in a separate file in the online submission system. Please use 'Highlights' in the file name and include 3 to 5 bullet points (maximum 85 characters, including spaces, per bullet point). See the following website for more information
+http://www.elsevier.com/highlights
+
+
+亮点（必填）
+
+要点包括一个简短的要点集合，这些要点传达了文章的核心发现，应该在在线提交系统中以单独的文件提交。 请在文件名中使用“亮点”并包含 3 到 5 个项目符号点（每个项目符号点最多 85 个字符，包括空格）。 有关详细信息，请参阅以下网站
+http://www.elsevier.com/highlights
+
+
+Graphical Abstract (optional)
+
+Graphical Abstracts should summarize the contents of the article in a concise, pictorial form designed to capture the attention of a wide readership online. Refer to the following website for more information: http://www.elsevier.com/graphicalabstracts
+
+Please note that this journal offers a new, free service called AudioSlides: brief, webcast-style presentations that are shown next to published articles on ScienceDirect (see also http://www.elsevier.com/audioslides). If your paper is accepted for publication, you will automatically receive an invitation to create an AudioSlides presentation.
+
+
+Computer Vision and Image Understanding features the Interactive Plot Viewer, see: http://www.elsevier.com/interactiveplots. Interactive Plots provide easy access to the data behind plots. To include one with your article, please prepare a .csv file with your plot data and test it online at http://authortools.elsevier.com/interactiveplots/verification before submission as supplementary material.
+Note: While submitting the revised manuscript, please double check the author names provided in the submission so that authorship related changes are made in the revision stage. If your manuscript is accepted, any authorship change will involve approval from co-authors and respective editor handling the submission and this may cause a significant delay in publishing your manuscript.
+
+Include interactive data visualizations in your publication and let your readers interact and engage more closely with your research. Follow the instructions here: https://www.elsevier.com/authors/author-services/data-visualization to find out about available data visualization options and how to include them with your article.
+
+Thank you, and I look forward to receiving your revised manuscript.
+
+With kind regards,
+
+Nikos Paragios
+Editor-in-Chief
+
+
+图形摘要（可选）
+
+图形摘要应以简洁的图形形式总结文章的内容，旨在吸引广大在线读者的注意力。有关详细信息，请参阅以下网站：http://www.elsevier.com/graphicalabstracts
+
+请注意，该期刊提供了一项名为 AudioSlides 的新免费服务：在 ScienceDirect 上发表的文章旁边显示简短的网络广播式演示（另请参见 http://www.elsevier.com/audioslides）。如果您的论文被接受发表，您将自动收到创建 AudioSlides 演示文稿的邀请。
+
+
+计算机视觉和图像理解功能具有交互式绘图查看器，请参阅：http://www.elsevier.com/interactiveplots。交互式绘图提供对绘图背后数据的轻松访问。要在您的文章中包含一个，请准备一个包含绘图数据的 .csv 文件，并在作为补充材料提交之前在 http://authortools.elsevier.com/interactiveplots/verification 在线测试。
+注意：提交修改稿时，请仔细检查提交中提供的作者姓名，以便在修改阶段进行与作者身份相关的更改。如果您的稿件被接受，任何作者身份的更改都将涉及共同作者和处理提交内容的相应编辑的批准，这可能会导致您的稿件出版出现重大延迟。
+
+在您的出版物中包含交互式数据可视化，让您的读者与您的研究进行更密切的互动和互动。按照此处的说明操作：https://www.elsevier.com/authors/author-services/data-visualization 了解可用的数据可视化选项以及如何将它们包含在您的文章中。
+
+谢谢你，我期待收到你的修改稿。
+
+亲切的问候，
+
+尼科斯·帕拉吉奥斯
+主编辑
+
+
+
+Data in Brief (optional):
+We invite you to convert your supplementary data (or a part of it) into an additional journal publication in Data in Brief, a multi-disciplinary open access journal. Data in Brief articles are a fantastic way to describe supplementary data and associated metadata, or full raw datasets deposited in an external repository, which are otherwise unnoticed. A Data in Brief article (which will be reviewed, formatted, indexed, and given a DOI) will make your data easier to find, reproduce, and cite.
+
+You can submit to Data in Brief when you upload your revised manuscript. To do so, complete the template and follow the co-submission instructions found here: www.elsevier.com/dib-template. If your manuscript is accepted, your Data in Brief submission will automatically be transferred to Data in Brief for editorial review and publication.
+
+Please note: an open access Article Publication Charge (APC) is payable by the author or research funder to cover the costs associated with publication in Data in Brief and ensure your data article is immediately and permanently free to access by all. For the current APC see: www.elsevier.com/journals/data-in-brief/2352-3409/open-access-journal
+
+Please contact the Data in Brief editorial office at dib-me@elsevier.com or visit the Data in Brief homepage (www.journals.elsevier.com/data-in-brief/) if you have questions or need further information.
+
+
+简要数据（可选）：
+我们邀请您将您的补充数据（或其中的一部分）转换为 Data in Brief（一种多学科开放获取期刊）中的附加期刊出版物。简要数据文章是描述补充数据和相关元数据或存储在外部存储库中的完整原始数据集的绝佳方式，否则这些数据不会被注意到。 Data in Brief 文章（将被审查、格式化、索引并给出 DOI）将使您的数据更易于查找、复制和引用。
+
+您可以在上传修改后的手稿时提交给 Data in Brief。为此，请填写模板并按照此处的共同提交说明进行操作：www.elsevier.com/dib-template。如果您的稿件被接受，您提交的 Data in Brief 将自动转移到 Data in Brief 进行编辑审查和出版。
+
+请注意：作者或研究资助者应支付开放获取文章出版费 (APC)，以支付与在 Data in Brief 中发表相关的费用，并确保您的数据文章可供所有人立即永久免费访问。对于当前的 APC，请参见：www.elsevier.com/journals/data-in-brief/2352-3409/open-access-journal
+
+如果您有任何疑问或需要更多信息，请通过 dib-me@elsevier.com 联系 Data in Brief 编辑部或访问 Data in Brief 主页 (www.journals.elsevier.com/data-in-brief/)。
+
+
+MethodsX (optional)
+
+We invite you to submit a method article alongside your research article. This is an opportunity to get full credit for the time and money spent on developing research methods, and to increase the visibility and impact of your work. If your research article is accepted, we will contact you with instructions on the submission process for your method article to MethodsX. On receipt at MethodsX it will be editorially reviewed and, upon acceptance, published as a separate method article. Your articles will be linked on ScienceDirect.
+
+Please prepare your paper using the MethodsX Guide for Authors: https://www.elsevier.com/journals/methodsx/2215-0161/guide-for-authors (and template available here: https://www.elsevier.com/MethodsX-template) Open access fees apply.
+
+
+
+方法X（可选）
+
+我们邀请您在您的研究文章旁边提交一篇方法文章。 这是一个充分利用在开发研究方法上所花费的时间和金钱的机会，并提高您工作的知名度和影响力。 如果您的研究文章被接受，我们将与您联系，并就您的方法文章提交给 MethodsX 的过程提供说明。 在 MethodsX 收到后，将对它进行编辑审查，并在接受后作为单独的方法文章发表。 您的文章将链接到 ScienceDirect。
+
+请使用 MethodsX 作者指南准备您的论文：https://www.elsevier.com/journals/methodsx/2215-0161/guide-for-authors（此处提供模板：https://www.elsevier.com/ 方法X-模板）适用开放访问费用。
+
+
+********************************
+
+
+Computer Vision and Image Understanding
+
+Editorial/Production Office
+Elsevier
+525 B Street, Suite 1800
+San Diego, CA 92101-4495
+USA
+Phone: (619) 699-6484
+Fax: (619) 699-6859
+E-mail: cviu@elsevier.com
+
+Reviewers' comments:
+
+
+
+Area Editor: I am happy to recommend this work for publication and would like to congratulate the authors for their effort in improving the quality of the submission. However, some small details are needed toi be included in the paper before the final acceptance, please see the comments of the Reviewer below. Note that the new submitted version will not be sent for revision anymore, since the new changes will be evaluated by the Area Editor.
+
+
+审稿人意见：
+
+区域编辑：我很高兴推荐此作品发表，并祝贺作者为提高提交质量所做的努力。 但是，在最终接受之前，需要在论文中包含一些小细节，请参阅下面的审稿人评论。 请注意，新提交的版本将不再发送进行修订，因为新的更改将由区域编辑器评估。
+
+
+
+
+Reviewer #1: Summary:
+This paper proposes a new approach for solving the data association problem encountered in the setting of online frame-by-frame tracking-by-detection MOT. The STURE method is a combination of three training losses for learning a joint neural embedding space for sequence and detection features. Ablation studies demonstrate that adopting this training scheme improves tracking performance
+
+Updated review:
+Thank you for addressing the reviewer comments in the revised manuscript. I have the following minor questions:
+
+-Something that is not apparent to me is how the detection and compressed sequence features are combined to produce the reinforced feature. Are they just concatenated? (The input to the linear classifier in Fig. 2 is 4,096 dimensional?). Please update the paper to highlight this step.
+
+-Does Fig 5a and 5b show the (4,096?) dimensional "reinforced" feature? If so, this should be specified.
+
+-Are public detections used for all MOT experiments? Whether each tracker uses public or private detections should be indicated in each results table. Trackers should only be compared if they are using the same source of object detections.
+
+I also encourage another pass of revising the grammar of the manuscript. There are many sentences still with improper English grammar.
+
+
+
+审稿人 #1：总结：
+本文提出了一种解决在线逐帧跟踪检测MOT设置中遇到的数据关联问题的新方法。 STURE 方法是三种训练损失的组合，用于学习用于序列和检测特征的联合神经嵌入空间。消融研究表明，采用这种训练方案可以提高跟踪性能
+
+更新评论：
+感谢您在修订稿中处理审稿人的意见。我有以下小问题：
+
+- 对我来说并不明显的是检测和压缩序列特征如何组合以产生增强特征。它们只是串联吗？ （图 2 中线性分类器的输入是 4,096 维？）。请更新论文以突出显示此步骤。
+
+- 图 5a 和 5b 是否显示了（4,096？）尺寸“强化”特征？如果是这样，则应指定。
+
+-所有MOT实验都使用公共检测吗？每个跟踪器是否使用公共或私人检测应在每个结果表中说明。仅当使用相同的对象检测源时，才应比较跟踪器。
+
+我还鼓励再次修改手稿的语法。仍有许多句子的英语语法不正确。
+
+
+#AU_CVIU#
+
+To ensure this email reaches the intended recipient, please do not delete the above code
+
+__________________________________________________
+In compliance with data protection regulations, you may request that we remove your personal registration details at any time. (Use the following URL: https://www.editorialmanager.com/cviu/login.asp?a=r). Please contact the publication office if you have any questions.
+
+
+#AU_CVIU#
+
+为确保此电子邮件到达预期收件人，请不要删除上述代码
+
+__________________________________________________
+根据数据保护法规，您可以随时要求我们删除您的个人注册信息。 （使用以下 URL：https://www.editorialmanager.com/cviu/login.asp?a=r）。 如有任何问题，请联系出版办公室。

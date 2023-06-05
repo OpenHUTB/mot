@@ -1,0 +1,48 @@
+% A descriptive diagram of TikZ tasks
+% Author: Stefan Kottwitz
+% https://www.packtpub.com/hardware-and-creative/latex-cookbook
+\documentclass[border=10pt]{standalone} 
+%%%<
+\usepackage{verbatim}
+\usepackage[UTF8]{ctex}                     % 支持中文显示
+%%%>
+\begin{comment}
+:Title: A descriptive diagram of TikZ tasks
+:Tags: Diagrams;Smartdiagram;Cookbook
+:Author: Stefan Kottwitz
+:Slug: smart-description
+
+A diagram showing various TikZ drawing tasks, using the
+smartdiagram package.
+参考：https://ctan.org/pkg/smartdiagram
+\end{comment}
+
+\usepackage{tikz}
+\usetikzlibrary{chains}
+\usepackage{smartdiagram}
+
+
+% 2+3+2
+% 9+12=21
+\begin{document}
+%\smartdiagram[flow diagram:vertical]{Set up}
+\hspace{0.1em}
+\smartdiagram[descriptive diagram]{
+  {类脑\\注意力机理,{第二章\ \ 平滑跟踪大脑皮层通路解剖对齐的视觉跟踪模型}},
+  {全局\\注意力机制, {第三章\ \ 基于全局注意力的在\\线多目标跟踪数据关联策略}},
+  {时空\\互增强方法, 第四章\ \ 基于时空互增强的鲁\\棒目标关联在线多目标跟踪},
+  {时空\\端到端应用, 第五章\ \ 联合检测和数据关联的实时在线多目标跟踪方案}}
+\hspace{0.1em}
+%\begin{tikzpicture}
+%\node[draw,minimum width=40mm, minimum height=6mm] (m1) {message};
+%\node[draw,minimum width=10mm, minimum height=6mm, left =(0mm of m1.east)] (m2) {0}; 
+%\node[draw, minimum width=30mm, minimum height=6mm, below of = m1, node distance = 13mm] (e1) {$ E(k,\cdot) $};
+%\node[draw, minimum width=40mm, minimum height=6mm, below of = e1, node distance = 13mm] (c1) {ciphertext}; 
+%
+%\draw[->] (m1) -- (e1);
+%\draw[->] (e1) -- (c1);
+%\end{tikzpicture}
+\end{document}
+
+
+
