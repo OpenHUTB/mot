@@ -1,33 +1,11 @@
 
 # 毕业论文
-
+将`figures`目录下的所有viso文件转换成pdf文件，然后编译`hnumain.tex`。
 ## 流程
-
+```shell
 pdflatex.exe -synctex=1 -interaction=nonstopmode "hnumain".tex
+```
 
-修改tomm（1月小修、2月接收）；
-neurocomputing（1月大修投出去，2月小修、3月初接受）
-cviu(一月底投出去)
-
-四篇确定接受后开始找投简历找工作。
-
-撰写毕业论文（二月底完成初稿，tomm接收后给老师看，3月底定稿）
-
-预答辩（4月5号），然后送审；
-
-需要在web of science上查的到，或者老师证明已经接收了。
-送审（全部75分以上，一个75分以下延期3个月，再次送审不过延期1年） 40天
-
-答辩（6月1号之前回来盲审意见并答辩）
-
-六月中领证
-
-
-
-# 信息
-[MOT博士论文](/data2/whd/win10/doc/paper/doctor/doctor.Data/PDF/2507414993)
-
-[fMRI数据处理论文](/data2/whd/win10/doc/paper/doctor/doctor.Data/PDF/0656740001)
 
 ## 问题
 
